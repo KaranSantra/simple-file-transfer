@@ -21,11 +21,11 @@ pip3 install tqdm
 ```
 
 ## Windows 
-** pray to Lord for forgiveness **
+** pray to Lord for forgiveness (send a pr)**
 
 ## Mac OS
 
-** figure it out **
+** figure it out (send a pr)**
 <br>
 <br>
 
