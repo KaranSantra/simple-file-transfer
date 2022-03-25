@@ -6,13 +6,13 @@ import tqdm
 import os
 
 # device's IP address
-SERVER_HOST = "192.168.x.xxx"
+SERVER_HOST = $(hostname -I | cut -d' ' -f1)
 SERVER_PORT = 5001
 
 # receive 4096 bytes each time
 BUFFER_SIZE = 4096
 
-SEPARATOR = "-"
+SEPARATOR = "<->"
 
 # create the server socket
 # TCP socket
